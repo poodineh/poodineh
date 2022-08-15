@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @poodineh
-- 👀 I’m interested in .Net 
-- 🌱 I’m currently learning software architecturing 
+- 👀 I’m Software engineer/Architecture/DevOps
+- 🌱 I’m currently learning DevSecOps
 - 📫 poodineh.at@gmail.com
 
