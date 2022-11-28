@@ -15,8 +15,8 @@ serial            = serial
 RANDFILE          = private/.rand
 
 # The root key and root certificate.
-private_key       = private/$org.intermediate.key.pem
-certificate       = certs/$org.intermediate.cert.pem
+private_key       = private/$org.root.ca.key.pem
+certificate       = certs/$org.root.ca.cert.pem
 
 # For certificate revocation lists.
 crlnumber         = crlnumber
@@ -74,12 +74,12 @@ commonName                      = Common Name
 emailAddress                    = Email Address
 
 # Optionally, specify some defaults.
-countryName_default             = US
-stateOrProvinceName_default     = TX
-localityName_default            =
-0.organizationName_default      = IoT Certificate Intermediate CA
-organizationalUnitName_default  =
-emailAddress_default            = admin@iottesting
+countryName_default             = DE
+stateOrProvinceName_default     = DE
+localityName_default            = PtwFreiburgRDIntegration
+0.organizationName_default      = PtwFreiburgRDIntegration
+organizationalUnitName_default  = RDIntegration
+emailAddress_default            = p8-support@ptwdosimetry.com
 
 [ v3_ca ]
 # Extensions for a typical CA.
