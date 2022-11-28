@@ -5,7 +5,7 @@ default_ca = CA_default
 
 [ CA_default ]
 # Directory and file locations.
-org               = myorg          # ORGANIZATION VALUE HERE
+org               = PtwFreiburg          # ORGANIZATION VALUE HERE
 dir               = pki
 certs             = certs
 crl_dir           = crl
